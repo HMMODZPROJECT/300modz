@@ -1,0 +1,94 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f0f1a, #200030);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #0ff;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid cyan;
+  margin-bottom: 10px;
+}
+
+.profile h1 {
+  font-size: 2rem;
+  color: cyan;
+  margin: 10px 0;
+  text-shadow: 0 0 10px cyan;
+}
+
+.profile p {
+  font-size: 0.95rem;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.buttons a {
+  background: #1c1c2b;
+  color: cyan;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #0ff2;
+}
+
+.buttons a:hover {
+  background: #292947;
+  box-shadow: 0 0 15px cyan;
+}
+
+.buttons a i {
+  margin-right: 8px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.4rem;
+  color: cyan;
+  margin-top: 10px;
+}
+
+.gear-button {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 1.6rem;
+  color: cyan;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.gear-button:hover {
+  transform: rotate(90deg);
+}
