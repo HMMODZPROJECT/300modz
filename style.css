@@ -97,7 +97,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;         /* ✅ Jarak antar ikon */
+  gap: 30px;       /* ✅ Jarak antar ikon = 30px */
   margin-top: 20px;
   flex-wrap: wrap;
 }
