@@ -92,3 +92,23 @@ body {
 .gear-button:hover {
   transform: rotate(90deg);
 }
+
+.sosmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;         /* ✅ Jarak antar ikon */
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.sosmed a {
+  color: #00f0ff;
+  font-size: 24px;
+  transition: transform 0.3s;
+  text-decoration: none;
+}
+
+.sosmed a:hover {
+  transform: scale(1.3);
+}
